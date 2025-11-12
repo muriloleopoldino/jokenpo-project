@@ -1,0 +1,73 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-bottom: 50px;
+    font-size: 70px;
+}
+
+.buttons, button{
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+#rock{
+    background-color: #a200ff;
+}
+
+#paper{
+    background-color: #9ee01a;
+}
+
+#scissors{
+    background-color: #7dbeed;
+}
+
+.your-score span{
+    color: rgb(6, 109, 245);
+}
+
+.machine-score span{
+    color: rgba(192, 9, 9, 0.849);
+}
