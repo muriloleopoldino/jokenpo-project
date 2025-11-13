@@ -11,4 +11,5 @@
 <img src="https://github.com/muriloleopoldino/jokenpo-project/blob/master/img/desktop.png?raw=true">
 <br><br>
 <h3>📱 Site no mobile:</h3>
+<img src="https://github.com/muriloleopoldino/jokenpo-project/blob/master/img/mobile.png?raw=true">
 
